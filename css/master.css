@@ -90,9 +90,10 @@ main figure img{
  *Capa Filmes
  *
  * */
-.filmes header h2{
+.filmes header h2 {
     font-size:3em;
     text-align:center;
+    color:#393939;
 }
 #capa-filme{ 
     border: 0.7em solid #000;
@@ -120,9 +121,58 @@ main figure img{
     transform:scale(1.1);
 
 }
-#capa-filme header h3{
-    color :#fff;
+/*
+ *Proximos Filmes
+ *
+ * */
+
+.proximos-filmes img{
+    width:100%;
+    height: 100%;
+    min-width: 20em;
+    min-height:30em;
+    margin: 0.2em 2em 0 2em;
+}
+.proximos-filmes header h2{
     text-align:center;
+    font-size: 4em;
+    color: #393939;
+}
+
+ .proximos-filmes p{
+    text-align: center;
+    font-size: 5em;
+    color:#393939;
+ }
+ /**
+  *Mais
+  * */
+.mais header h3{
+    text-align:center;
+    font-size:1.9em;
+}
+.video-youtube{
+    width:100%;
+    min-width:17.5em;
+    margin:0 3em;
+}
+.containerVideo{
+    position:relative;
+    padding:56.25%;
+    padding-top:25px;
+    height:0;
+}
+.containerVideo iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+@media screen and (min-width:400px){
+    .video-youtube{
+        width:80%;
+    }
 }
 
 @media screen and (min-width: 850px){
@@ -134,7 +184,7 @@ main figure img{
         display:inline-block;
         margin: 0em 10em 1em 10em;
     }
-   
+    
 }
 
 
