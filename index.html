@@ -1,24 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Teste site resposivo</title>
-    <meta name"viweport" content="width=device-width, initial-sacle=1">
-    <!--[if lt IE 9]>
+    <head>
+        <meta charset="UTF-8">
+        <title>Teste site resposivo</title>
+        <meta name"viweport" content="width=device-width, initial-sacle=1">
+        <!--[if lt IE 9]>
         <script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" charset="utf-8">
-     <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" charset="utf-8">
-    
-</head>
-<body id="tudo">
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Posts</li>
-            <li>Eventos</li>
-            <li>Contatos</li>            
-        </ul>
-    </nav>
-</body>
+        <![endif]-->
+        <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" charset="utf-8">
+    </head>
+    <body id="home">
+        <div class="tudo">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Próximos Filmes</a></li>
+                    <li><a href="#">Conheça Mais</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <figure class="capa">
+                    <img src="img/star-capa.jpg" alt="">
+                </figure>
+                
+                <div class="historia">
+                    <header>
+                        <h1>Star Wars é sua historia</h1>
+                    </header>
+                    <p> A série teve início com o simples título Star Wars, criado e dirigido por George Lucas, lançado em 25 de maio de 1977. Na época da sua estreia foi a maior bilheteria de todos os tempos, arrecadando US$ 775.398.007 milhões de dólares e ganhando sete prêmios no Óscar.<p>
+
+                    <p>A Fox desacreditou num filme que falava sobre o espaço - na época uma loucura -, permitiu que George Lucas tivesse todos os direitos do filme. Devido o sucesso garantiu a ele dinheiro suficiente para abrir sua empresa cinematográfica: Lucasfilm. O sucesso foi tão grande, que o filme foi transformado em uma franquia e ganhou produtos derivados. Em 1978, Star Wars teve um especial de Natal pra TV, o The Star Wars Holiday Special exibido pela CBS, porem sendo notório por ter uma grande recepção negativa e nunca ter sido exibido novamente na televisão ou lançado em DVD. George Lucas não teve envolvimento significativo na produção e demonstrou decepção com o resultado final.  </p>           
+                </div>
+                <div class="filmes">
+                        <header>
+                            <h2>Todos filmes dos Star wars</h2>
+                        </header>
+                    <section class="filme1" id="capa-filme">
+                        <img src="img/filme1.jpg" alt="" >
+                    </section>
+
+                    <section class="filme2" id="capa-filme">
+                        <img src="img/filme2.jpg" alt="" >
+                    </section>
+
+                    <section class="filme3" id="capa-filme">
+                        <img src="img/filme3.jpg" alt="">
+                    </section>
+
+                    <section class="filme4" id="capa-filme">
+                        <img src="img/filme4.jpg" alt="">
+                    </section>
+
+                    <section class="filme5" id="capa-filme">
+                        <img src="img/filme5.jpg" alt="">
+                    </section>
+
+                    <section class="filme6" id="capa-filme">
+                        <img src="img/filme6.jpg" alt="">
+                    </section>
+                        
+                </div>
+                <div class="proximos-filmes">
+
+                </div>
+                <div class="mais">
+
+                </div>
+
+            </main>
+
+            <script src="js/jquery.min.js"></script>
+        </div>
+    </body>
 </html>
