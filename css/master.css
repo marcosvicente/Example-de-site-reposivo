@@ -7,4 +7,34 @@ body{
     font: 62.5% Arial, sans-serif,
 }
 
-
+/*Grid*/
+grid_1{
+    width:10% ;
+} 
+grid_2{
+    width:20%;
+}
+grid_3{
+    width:30%;    
+}
+grid_4{
+    width:40%
+}
+grid_5{
+    width:50%;
+}
+grid_6{
+    width:60%;
+}
+grid_7{
+    width:70%;
+}
+grid_8{
+    width:80%;
+}
+grid_9{
+    width:90%;
+}
+grid_10{
+    width:100%;
+}
